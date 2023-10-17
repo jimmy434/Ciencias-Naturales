@@ -1,0 +1,52 @@
+/* Estilos para los encabezados h1, h2 y h3 */
+
+h1 {
+  color: #6c2eb9; /* Color morado */
+  font-family: Arial, sans-serif; /* Fuente Arial */
+  font-size: 36px; /* Tamaño de fuente 36px */
+  font-weight: bold; /* Fuente en negrita */
+  text-align: center; /* Texto centrado */
+  text-shadow: 2px 2px 4px #000000; /* Sombra de texto negra */
+}
+
+h2 {
+  color: #ffffff; /* Color blanco */
+  font-family: Verdana, sans-serif; /* Fuente Verdana */
+  font-size: 24px; /* Tamaño de fuente 24px */
+  font-style: italic; /* Fuente en cursiva */
+  text-align: left; /* Texto alineado a la izquierda */
+  background-color: #6c2eb9; /* Color de fondo morado */
+  padding: 10px; /* Espacio interior de 10px */
+}
+
+h3 {
+  color: #6c2eb9; /* Color morado */
+  font-family: Georgia, serif; /* Fuente Georgia */
+  font-size: 18px; /* Tamaño de fuente 18px */
+  text-align: right; /* Texto alineado a la derecha */
+  border-bottom: 2px solid #6c2eb9; /* Borde inferior de 2px sólido morado */
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(5px 5px 10px blue);
+}
+
+
+.img {
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(5px 5px 10px blue);
+  animation: girar 2s linear infinite;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+

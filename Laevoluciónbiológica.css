@@ -1,0 +1,101 @@
+/* Esto es un comentario en CSS */
+  /* Seleccionamos la etiqueta H1 */
+  h2 {
+    /* Le damos un color azul oscuro */
+    color: #0a2a5f;
+    /* Le damos un tamaño de fuente de 48 píxeles */
+    font-size: 35px;
+    /* Le damos una fuente sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Le damos un margen inferior de 20 píxeles */
+    margin-bottom: 20px;
+    /* Le damos una sombra de texto blanca */
+    text-shadow: 2px 2px 4px white;
+  }
+
+/* Seleccionamos la etiqueta H2 */
+  h1 {
+    /* Le damos un color morado */
+    color: #9c27b0;
+    /* Le damos un tamaño de fuente de 32 píxeles */
+    font-size: 40px;
+    /* Le damos una fuente serif */
+    font-family: "Times New Roman", Times, serif;
+    /* Le damos un margen inferior de 12 píxeles */
+    margin-bottom: 12px;
+    /* Le damos un efecto de transición al pasar el cursor por encima */
+    transition: all 0.5s ease;
+  }
+  /* Cambiamos el estilo de la etiqueta H2 cuando el cursor está sobre ella */
+  h1:hover {
+    /* Le damos un color blanco */
+    color: white;
+    /* Le damos un fondo morado */
+    background-color: #9c27b0;
+    /* Le damos un borde redondeado de 10 píxeles */
+    border-radius: 10px;
+    /* Le damos una sombra de caja morada */
+    box-shadow: 5px 5px 10px #9c27b0;
+  }
+
+
+
+
+  /* Seleccionamos la etiqueta H3 */
+  h3 {
+    /* Le damos un color naranja oscuro */
+    color: #e65100;
+    /* Le damos un tamaño de fuente de 24 píxeles */
+    font-size: 24px;
+    /* Le damos una fuente serif */
+    font-family: "Times New Roman", Times, serif;
+    /* Le damos un margen inferior de 10 píxeles */
+    margin-bottom: 10px;
+    /* Le damos un efecto de rotación de -10 grados */
+    transform: rotate(-0.5deg);
+  }
+
+
+/* Estilo de la imagen */
+    img {
+      /* Tamaño de la imagen */
+      width: 400px;
+      height: 300px;
+      /* Borde redondeado de la imagen */
+      border-radius: 10px;
+      /* Transición suave al cambiar el estilo */
+      transition: all 0.5s ease;
+    }
+    /* Estilo de la imagen cuando el cursor está sobre ella */
+    img:hover {
+      /* Escala de la imagen (zoom) */
+      transform: scale(1.1);
+      /* Sombra de la imagen */
+      box-shadow: 5px 5px 10px gray;
+    }
+    /* Estilo del botón */
+    button {
+      /* Posición absoluta sobre la imagen */
+      position: absolute;
+      /* Margen izquierdo del botón */
+      left: 50%;
+      /* Margen superior del botón */
+      top: 50%;
+      /* Desplazamiento del botón para centrarlo */
+      transform: translate(-50%, -50%);
+      /* Color del botón */
+      background-color: white;
+      /* Color del texto del botón */
+      color: black;
+      /* Borde redondeado del botón */
+      border-radius: 10px;
+      /* Sombra del botón */
+      box-shadow: 2px 2px 5px gray;
+    }
+    /* Estilo del botón cuando el cursor está sobre él */
+    button:hover {
+      /* Color del botón */
+      background-color: black;
+      /* Color del texto del botón */
+      color: white;
+    }

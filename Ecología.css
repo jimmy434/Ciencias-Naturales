@@ -1,0 +1,75 @@
+h1{
+  color: #4f4866;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: Arial;
+  text-transform: uppercase;
+   
+}
+h2 {
+  color: #6c2eb9;
+  font-weight: normal;
+  font-size: 35px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+h3 {
+  color: #747377;
+  font-weight: normal;
+  font-size: 30px;
+  font-family: Arial;
+  text-transform: lowercase;
+}
+
+
+
+h1 {
+  color: rgb(51, 102, 153);
+}
+
+
+/* Seleccionamos el elemento de texto que queremos animar */
+h1 {
+  /* Le damos un nombre a la animación */
+  animation-name: mover;
+  /* Le damos una duración de 2 segundos */
+  animation-duration: 2s;
+  /* Le indicamos que se repita infinitamente */
+  animation-iteration-count: infinite;
+  /* Le indicamos que se ejecute en sentido alternativo */
+  animation-direction: alternate;
+}
+
+/* Definimos los fotogramas de la animación */
+@keyframes mover {
+  /* El punto inicial de la animación */
+  from {
+    /* El texto está en su posición original */
+    transform: translateY(0);
+  }
+  /* El punto final de la animación */
+  to {
+    /* El texto se desplaza 100 píxeles hacia arriba */
+    transform: translateY(-20px);
+  }
+}
+
+/* Seleccionamos el elemento de imagen que queremos animar */
+img {
+  /* Le aplicamos una animación llamada rotate con una duración de 2 segundos y 2 iteraciones */
+  animation: 2s rotate 2;
+}
+
+/* Definimos los fotogramas de la animación */
+@keyframes rotate {
+  /* El punto inicial de la animación */
+  from {
+    /* La imagen está en su posición original */
+    transform: rotate(0deg);
+  }
+  /* El punto final de la animación */
+  to {
+    /* La imagen gira 360 grados */
+    transform: rotate(360deg);
+  }
+}

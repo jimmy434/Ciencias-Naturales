@@ -1,0 +1,35 @@
+/* CSS */
+
+h1, h2, a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h1:hover, h2:hover, a:hover {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+/* Animaciones */
+
+@keyframes color-change {
+  0% {
+    color: #000000;
+  }
+  25% {
+    color: #FF0000;
+  }
+  50% {
+    color: #00FF00;
+  }
+  75% {
+    color: #0000FF;
+  }
+  100% {
+    color: #FF0000;
+  }
+}
+
+h1, h2, a {
+  animation: color-change 3s infinite;
+}

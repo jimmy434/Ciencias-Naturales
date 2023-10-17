@@ -1,0 +1,25 @@
+h1 {
+  font-size: 36px;
+  color: blue;
+  transition: transform 0.5s;
+}
+
+h1:hover {
+  transform: rotate(360deg);
+}
+
+/* Seleccionamos el elemento de texto que queremos animar */
+h2 {
+  /* Le damos un color y un tamaño iniciales */
+  color: green;
+  font-size: 36px;
+  /* Le damos una duración de 0.5 segundos a la transición */
+  transition: 0.5s;
+}
+
+/* Seleccionamos el estado del elemento cuando el cursor está sobre él */
+h2:hover {
+  /* Le cambiamos el color y el tamaño */
+  color: purple;
+  font-size: 48px;
+}
