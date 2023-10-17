@@ -1,0 +1,45 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo del título principal */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0099ff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo del subtítulo */
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #0099ff;
+  margin-left: 20px;
+}
+
+/* Estilo de los enlaces a los grados */
+a h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #333;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/* Estilo de los contenidos por periodo */
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  margin-left: 40px;
+}

@@ -1,0 +1,40 @@
+
+h1 {
+  color: #0000cc;
+  font-family: Arial;
+  text-shadow: 2px 2px #ffffff;
+}
+
+img {
+  transition: transform 1s;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+
+/* Seleccionamos el elemento de texto que queremos animar */
+h1 {
+  /* Le damos un nombre a la animación */
+  animation-name: mover;
+  /* Le damos una duración de 2 segundos */
+  animation-duration: 2s;
+  /* Le indicamos que se repita infinitamente */
+  animation-iteration-count: infinite;
+  /* Le indicamos que se ejecute en sentido alternativo */
+  animation-direction: alternate;
+}
+
+/* Definimos los fotogramas de la animación */
+@keyframes mover {
+  /* El punto inicial de la animación */
+  from {
+    /* El texto está en su posición original */
+    transform: translateY(0);
+  }
+  /* El punto final de la animación */
+  to {
+    /* El texto se desplaza 100 píxeles hacia arriba */
+    transform: translateY(-100px);
+  }
+}
